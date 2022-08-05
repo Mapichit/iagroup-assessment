@@ -1,0 +1,19 @@
+<p>Q2</p>
+<h1>API Call</h1>
+
+<table style="width:100%">
+  <tr>
+    <th>Id</th>
+    <th>User Id</th>
+    <th>Title</th>
+    <th>Body</th>
+  </tr>
+  <tr *ngFor="let MockArray of mockArray">
+    <td>{{MockArray['id']}}</td>
+    <td>{{MockArray['userId']}}</td>
+    <td>{{MockArray['title']}}</td>
+    <td>{{MockArray['body']}}</td>
+
+  </tr>
+
+</table>

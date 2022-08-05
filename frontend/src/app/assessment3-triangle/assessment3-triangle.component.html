@@ -1,0 +1,19 @@
+<p>Q3</p>
+<h1>Area of Triangle</h1>
+
+<form [formGroup]="triangleForm">
+
+
+  <div>
+    <span>Base: &nbsp;</span>
+    <input type="text" formControlName="base">
+  </div>
+  <div>
+    <span>Height: &nbsp;</span>
+    <input type="text" formControlName="height">
+  </div>
+  <button (click)="onSubmit()">Submit</button>
+
+</form>
+
+<p>Area: {{area}}</p>
